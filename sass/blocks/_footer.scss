@@ -1,0 +1,171 @@
+.footer{
+    margin-bottom: 88px;
+    &__top{
+        background: #2C343E;
+        padding: 48px 85px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        width: 1280px;
+    }
+
+    &__nav{
+        margin: 0;
+        padding: 0;
+        margin-left: -133px;
+
+        &__link{
+            text-decoration: none;
+            margin-right: 32px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            color: #83888F;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__list{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+
+        &__item{
+            margin-left: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .footer{
+        margin-bottom: 72px;
+        &__top{
+            background: #2C343E;
+            padding: 54px 202px;
+            display: flex;
+            flex-direction: column;
+            width: 720px;
+            
+        }
+
+        &__img{
+            width: 236px;
+            height: 26px;
+        }
+    
+        &__nav{
+            margin: 0;
+            padding: 0;
+            margin-top: 33px;
+            margin-bottom: 65px;
+    
+            &__link{
+                text-decoration: none;
+                margin-right: 32px;
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 0.923077px;
+                text-transform: uppercase;
+                color: #83888F;
+    
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    
+        &__list{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style-type: none;
+    
+            &__item{
+                margin-left: 24px;
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:375px){
+        .footer{
+            margin-bottom: 72px;
+            &__top{
+                background: #2C343E;
+                padding: 54px ;
+                display: flex;
+                flex-direction: column;
+                width: 327px;
+                
+            }
+    
+            &__img{
+                width: 217px;
+                height: 24px;
+            }
+        
+            &__nav{
+                margin: 0;
+                padding: 0;
+                margin-top: 49px;
+                margin-bottom: 48px;
+                display: flex;
+                flex-direction: column;
+                
+        
+                &__link{
+                    text-decoration: none;
+                    margin-bottom: 24px;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 0.923077px;
+                    text-transform: uppercase;
+                    color: #83888F;
+                    text-align:center;
+                    align-items: center;
+        
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        
+            &__list{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                list-style-type: none;
+
+                &__img{
+                    width: 24px;
+                    height: 24px;
+                }
+        
+                &__item{
+                    margin: 0;
+                    margin-left: 24px;
+                    align-items: flex-start;
+                    &:first-child{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }

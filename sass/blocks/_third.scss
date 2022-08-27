@@ -1,0 +1,410 @@
+.third{
+    &__top{
+       
+        background-image: url(../images/rectangle.png);
+        background-repeat: no-repeat;
+        background-size: 1280px;
+        padding-top: 100px;
+        padding-left: 85px;
+        padding-right: 85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title{
+        margin: 0;
+        margin-bottom: 32px;
+        width: 329px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+
+    &__paragraph{
+        margin: 0;
+        width: 540px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-bottom: 86px;
+    }
+
+    &__list{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+
+        &__b1:before{
+            content: "";
+            display: block;
+            width: 71px;
+            height: 72px;
+            background-image: url(../images/coffee-bean.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 56px;
+            margin-left: 88px;
+        }
+
+        &__b2:before{
+            content: "";
+            display: block;
+            width: 72px;
+            height: 72px;
+            background-image: url(../images/gift.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 56px;
+            margin-left: 88px;
+        }
+
+        &__b3:before{
+            content: "";
+            display: block;
+            width: 71px;
+            height: 50px;
+            background-image: url(../images/car.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 22px;
+            margin-bottom: 56px;
+            margin-left: 88px;
+        }
+
+        &__item{
+            width: 350px;
+            position: relative;
+            background: #0E8784;
+            border-radius: 8px;
+            padding: 72px 48px 48px 48px;
+            margin-right: 30px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+
+
+        &__title{
+            margin: 0;
+            margin-bottom: 24px;
+            width: 255px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #FEFCF7;
+        }
+
+        &__paragraph{
+            margin: 0;
+            width: 255px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #FEFCF7;
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .third{
+        &__top{
+            background-image: url(../images/tablet-mask.png);
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-size:728px;
+            padding-top: 56px;
+            padding-left: 57px;
+            padding-right: 58px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title{
+            margin: 0;
+            margin-bottom: 24px;
+            width: 264px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+            color: #FEFCF7;
+        }
+        
+        &__paragraph{
+            margin: 0;
+            width: 540px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            margin-bottom: 70px;
+        }
+
+        &__list{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+
+            &__item{
+                width: 573px;
+                position: relative;
+                background: #0E8784;
+                border-radius: 8px;
+                padding: 41px 48px 41px 70px;
+                margin-bottom: 24px;
+                margin-right: 0;
+    
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+
+            &__b1:before{
+                content: "";
+                display: block;
+                width: 55px;
+                height: 56px;
+                background-image: url(../images/coffee-bean.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-bottom: 56px;
+                margin-left: 88px;
+                position: absolute;
+                top: 62px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+    
+            &__b2:before{
+                content: "";
+                display: block;
+                width: 56px;
+                height: 56px;
+                background-image: url(../images/gift.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-bottom: 56px;
+                margin-left: 88px;
+                position: absolute;
+                top: 62px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+    
+            &__b3:before{
+                content: "";
+                display: block;
+                width: 55px;
+                height: 39px;
+                background-image: url(../images/car.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-top: 22px;
+                margin-bottom: 56px;
+                margin-left: 88px;
+                position: absolute;
+                top: 55px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+
+            &__title{
+                margin: 0;
+                margin-left: 120px;
+                margin-bottom: 16px;
+                width: 255px;
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 32px;
+                color: #FEFCF7;
+                text-align: start;
+            }
+    
+            &__paragraph{
+                margin: 0;
+                margin-left: 120px;
+                width: 344px;
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FEFCF7;
+                text-align: start;
+            }
+        }
+
+        
+    }
+}
+
+@media only screen and (max-width:375px){
+    .third{
+        &__top{
+            background-image: url(../images/mobile-mask.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding-top: 64px;
+            padding-left: 24px;
+            padding-right: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title{
+            margin: 0;
+            margin-bottom: 24px;
+            width: 279px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 28px;
+            text-align: center;
+            color: #FEFCF7;
+        }
+    
+        &__paragraph{
+            margin: 0;
+            width: 279px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            margin-bottom: 64px;
+        }
+
+        &__list{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+
+            &__b1:before{
+                content: "";
+                position:static;
+                display: block;
+                width: 71px;
+                height: 72px;
+                background-image: url(../images/coffee-bean.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin:0;
+                margin: 0 91px 56px;
+            }
+    
+            &__b2:before{
+                content: "";
+                position:static;
+                display: block;
+                width: 72px;
+                height: 72px;
+                background-image: url(../images/gift.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin:0;
+                margin: 0 91px 56px;
+            }
+    
+            &__b3:before{
+                content: "";
+                position:static;
+                display: block;
+                width: 71px;
+                height: 50px;
+                background-image: url(../images/car.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin:0;
+                margin: 0 91px 67px;
+            }
+    
+            &__item{
+                width: 279px;
+                position: relative;
+                background: #0E8784;
+                border-radius: 8px;
+                padding: 72px 12px 51px 12px;
+                margin-right: 0;
+                margin-bottom: 24px;
+    
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+    
+    
+            &__title{
+                margin-bottom: 0;
+                margin-left: 0;
+                text-align:center;
+                margin-bottom: 24px;
+                width: 255px;
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 32px;
+                color: #FEFCF7;
+                
+            }
+    
+            &__paragraph{
+                margin: 0;
+                width: 255px;
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                color: #FEFCF7;
+            }
+        }
+    }
+}

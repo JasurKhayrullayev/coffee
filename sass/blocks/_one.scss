@@ -1,0 +1,137 @@
+.one{
+    &__top{
+        background-image: url("../images/coffee.jpg");
+        padding: 117px 0 100px 86px;
+        margin-bottom: 152px;
+    }
+
+    &__title{
+        margin: 0;
+        width: 493px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+    }
+
+    &__paragraph{
+        margin: 0;
+        margin-top: 32px;
+        margin-bottom: 71px;
+        width: 445px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+
+    &__link{
+        text-decoration: none;
+        background: #0E8784;
+        border-radius: 6px;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        padding: 15px 31px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .one{
+
+        &__top{
+        background-image: url("../../images/tablet-cofe.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 104px 0 104px 58px;
+        margin-bottom: 144px;
+        }
+
+        &__title{
+            width: 329px;
+            margin: 0;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 48px;
+            color: #FEFCF7;
+        }
+
+        &__paragraph{
+            margin: 0;
+            width: 398px;
+            margin-top: 24px;
+            margin-bottom: 40px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+        }
+    }    
+}
+
+@media only screen and (max-width:375px){
+    .one{
+        &__top{
+            background-image: url("../../images/mobile-cofe.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 100px 24px;
+            margin-bottom: 144px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title{
+            width: 279px;
+            margin: 0;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: #FEFCF7;
+        }
+
+        &__paragraph{
+            margin: 0;
+            width: 279px;
+            margin-top: 24px;
+            margin-bottom: 40px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+        }
+
+        &__link{
+            align-self: center;
+            text-decoration: none;
+            background: #0E8784;
+            border-radius: 6px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            padding: 15px 31px;
+        }
+    }
+}

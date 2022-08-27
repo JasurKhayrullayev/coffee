@@ -1,0 +1,171 @@
+.two{
+    margin-bottom: 188px;
+    &__top{
+        padding: 120px 86px 0 86px;
+        background-image: url("../images/collection.png");
+        background-repeat: no-repeat;
+        background-position-x: calc(50% - 0px);
+        background-position-y: calc(50% - 200px);
+    }
+
+    &__list{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+
+        &__img{
+            margin-bottom: 71.5px;
+        }
+    }
+    
+    &__title{
+        margin: 0;
+        width: 255px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333D4B;     
+    }
+
+    &__paragraph{
+        margin: 0;
+        margin-top: 24px;
+        width: 255px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .two{
+        margin-bottom: 130px;
+        &__top{
+            background-image: url("../images/tablet-collect.png");
+            background-repeat: no-repeat;
+            background-position-x: calc(50% - 0px);
+            background-position-y: calc(50% - 480px);
+        }
+    
+        &__list{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+
+            &__img{
+                margin-right: 36px;
+                width: 234px;
+                height: 177px;
+            }
+
+            &__right{
+                padding: 29px 27px 0 0;
+            }
+
+            &__item{
+                display: flex;
+                margin-right: 0;
+            }
+
+        }
+        
+        &__title{
+            margin: 0;
+            width: 255px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #333D4B;  
+            text-align: start;   
+        }
+    
+        &__paragraph{
+            margin: 0;
+            margin-top: 24px;
+            width: 282px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #333D4B;
+            text-align: start;
+        }
+}
+}
+
+@media only screen and (max-width:375px){
+    .two{
+        margin-bottom: 120px;
+        &__top{
+            background-image: url("../images/mobile-collect.png");
+            background-repeat: no-repeat;
+            background-position-x: calc(50% - 0px);
+            background-position-y: calc(50% - 700px);
+        }
+    
+        &__list{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+
+            &__item{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 48px;
+                align-items: center;
+                margin-right: 0;
+            }
+    
+            &__img{
+                margin-bottom: 24px;
+                width: 200px;
+                height: 151px;
+                align-self: center;
+            }
+        }
+        
+        &__title{
+            margin: 0;
+            width: 255px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #333D4B;   
+            align-self: center; 
+            
+        }
+    
+        &__paragraph{
+            margin: 0;
+            margin-top: 16px;
+            width: 282px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #333D4B;
+            align-self: center;
+        }
+}
+}
