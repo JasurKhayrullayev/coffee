@@ -1134,7 +1134,7 @@ body {
   }
 }
 .footer {
-  margin-bottom: 88px;
+  margin-bottom: 0;
 }
 .footer__top {
   background: #2C343E;
@@ -1175,9 +1175,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .footer {
-    margin-bottom: 72px;
-  }
   .footer__top {
     background: #2C343E;
     padding: 54px 202px;
@@ -1224,9 +1221,6 @@ body {
   }
 }
 @media only screen and (max-width: 375px) {
-  .footer {
-    margin-bottom: 72px;
-  }
   .footer__top {
     background: #2C343E;
     padding: 54px;
