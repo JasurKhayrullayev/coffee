@@ -1,5 +1,5 @@
 .footer{
-    
+    margin-bottom: 0;
     &__top{
         background: #2C343E;
         padding: 48px 85px;
@@ -46,7 +46,6 @@
 
 @media only screen and (max-width:768px){
     .footer{
-        margin-bottom: 72px;
         &__top{
             background: #2C343E;
             padding: 54px 202px;
@@ -103,7 +102,6 @@
 
 @media only screen and (max-width:375px){
         .footer{
-            margin-bottom: 72px;
             &__top{
                 background: #2C343E;
                 padding: 54px ;
